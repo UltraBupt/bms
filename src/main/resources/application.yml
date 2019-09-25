@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost/bms?characterEncoding=utf-8&useSSL=false&zeroDateTimeBehavior=convertToNull
+  jpa:
+    show-sql: true
+  application:
+    name: test-freemarker
+server:
+  context-path: /bms
